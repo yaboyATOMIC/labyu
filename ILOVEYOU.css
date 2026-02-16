@@ -1,0 +1,19 @@
+body{display: flex; 
+     align-items: center; 
+     justify-content: center; 
+     height: 100vh; 
+     margin: 0; 
+     background-color: #262626; /* Dark background to make the effect pop */ 
+    } 
+
+p   {font-size: 8px; /* Small font size to create detail in the portrait */ 
+     line-height: 8px; /* Reduce space between lines */ 
+     background-image: url('portrait.jpg'); /* The background image (your portrait) */ 
+     background-position: center; background-size: cover; 
+     -webkit-background-clip: text; /* Clips the background to the shape of the text */ 
+     background-clip: text; 
+     -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Makes the text transparent, revealing the background */ 
+     color: rgba(255, 255, 255, 0); 
+     word-wrap: break-word; /* Allows long strings of text to wrap */ 
+     white-space: pre-wrap; /* Preserves whitespace and line breaks */ 
+    }
